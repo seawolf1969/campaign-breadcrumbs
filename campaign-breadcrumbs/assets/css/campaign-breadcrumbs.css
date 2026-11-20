@@ -1,0 +1,31 @@
+.campaign-breadcrumbs {
+    margin: 0 0 1rem;
+    font-size: 0.75rem;
+}
+
+.campaign-breadcrumbs__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.campaign-breadcrumbs__item {
+    display: inline-flex;
+}
+
+.campaign-breadcrumbs__item a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.campaign-breadcrumbs__separator {
+    color: #777;
+}
+
+.campaign-breadcrumbs .is-current {
+    font-weight: 700;
+}
